@@ -1,0 +1,27 @@
+Program dumb ()
+const
+    MAX = 500;
+var
+    in : integer; out: integer;
+begin
+    writeln("Enter a number");
+    read(in);
+    if (in > MAX) then writeln("TOO BIGG!!!");
+    if (in < MAX) then 
+        begin
+            out := 2*2;
+            write("You Entered");
+            writeln(in);
+            write("Multiply by 2 and you get");
+            writeln(out)
+        end;
+
+    var
+        a : integer; b:integer;
+    begin
+        a:= 3; b:= a+ 3;
+        writeln(a);
+        writeln(b);
+        writeln(in)
+    end
+end.        
